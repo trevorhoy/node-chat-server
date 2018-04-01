@@ -18,7 +18,7 @@ describe('Real String Validation', () => {
   });
 
   it('should allow string with non-space characters', () => {
-    let str = 'hellothisisastring';
+    let str = '   hellothisisastring   ';
     let result = isRealString(str);
 
     expect(result).toBe(true);
